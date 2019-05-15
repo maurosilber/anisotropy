@@ -21,7 +21,7 @@ def anisotropy_from_intensity(par_int, per_int, ret_total_int=False):
     """
     total_int = total_intensity(par_int, per_int)
     ani = (par_int - per_int) / total_int
-    return ani, total_int if ret_total_int else ani
+    return (ani, total_int) if ret_total_int else ani
 
 
 def intensity_from_anisotropy(ani, total_int):
