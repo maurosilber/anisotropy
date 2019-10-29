@@ -9,5 +9,5 @@ setup(
     author='Mauro Silberberg',
     author_email='maurosilber@gmail.com',
     description='Fluorescence anisotropy microscopy analysis.',
-    install_requires=['numpy', 'pywt']
+    install_requires=['numpy', 'pywavelets']
 )
